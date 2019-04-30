@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-image-puzzle": "^0.1.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "semantic-ui-react": "^0.86.0",
+    "sweetalert-react": "^0.4.11"
   },
   "scripts": {
     "start": "react-scripts start",
