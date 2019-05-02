@@ -13,12 +13,19 @@ const info =
   {name: "Keipper", vid_id:"95a_di3t8lc"},
 
   {name: "Haley and Charlie", vid_id: "OCj5eh7iEzI"},
+  {name: "Nicole", vid_id:"xwf1Xvg-O64"},
   {name: "Lyle", vid_id:"1OZQzn1ADg8"},
+  {name: "Bill", vid_id:"e-XasEKX9LA"},
+
   {name: "Lena", vid_id:"bCG_ZzJm1Is"},
 
   {name: "Vivian", vid_id:"k6gqLQW2Z0U"},
-
   {name: "Leo and Mcqueen", vid_id: "NrEdI9kJChc"},
+  
+  {name: "Fiona", vid_id:"zPLN7NA0vrY"},
+  {name: "Elaine", vid_id:"E-7Gz460l3M"},
+  
+  {name: "Ben", vid_id:"-Me3F4Fgcj0"},
   {name: "Roy", vid_id:"BB03bLnFoGo"},
   {name: "Cathy", vid_id:"plSDj2ZVE1I"},
   {name: "Jocelyn and Cuttino", vid_id:"rk5zYW9pgcU"},
