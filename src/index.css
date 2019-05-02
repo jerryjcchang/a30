@@ -10,12 +10,15 @@ html {
   /* background: lightgrey; */
 }
 
+.element::-webkit-scrollbar { width: 0 !important }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
+    font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,5 +29,71 @@ code {
 }
 
 #card-container{
-  padding: 20px;
+  padding-top: 5vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-bottom: 5vh;
+}
+
+#vid-modal-header{
+  background-image: url("https://image.shutterstock.com/image-photo/wood-texture-background-planks-grunge-260nw-783084157.jpg");
+  font-family: 'Indie Flower', cursive;
+  font-size: 5vh;
+  text-shadow: -1px -1px rgba(0,0,0,0.5), 1px 1px rgba(255,255,255,0.5);
+  color: rgba(139,69,19,0.4);
+}
+
+#vid-modal-content{
+  background-image: url("https://www.tweaksocialmedia.com/wp-content/uploads/2017/08/Light-wood-background.jpg");
+  background-size: cover;
+  padding-left: 17vh;
+}
+
+.page-header{
+  background-image: url("https://image.shutterstock.com/image-photo/wood-texture-background-planks-grunge-260nw-783084157.jpg");
+  font-family: 'Indie Flower', cursive;
+  padding-top: 2vh;
+  /* padding-bottom: 1vh; */
+  font-size: 10vh;
+  text-shadow: -1px -1px rgba(0,0,0,0.5), 1px 1px rgba(255,255,255,0.5);
+  color: rgba(139,69,19,0.4);
+  height: 15vh;
+  /* text-shadow: -1px 0 lightblue, 0 1px lightblue, 1px 0 lightblue, 0 -1px lightblue; */
+}
+
+#footer{
+  height: 18vh;
+}
+
+#puzzle-div{
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#card-header{
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  /* color: #333;
+   text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */
+   color: #3B5957;
+   background-color: #5D8D89;
+   /* text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7); */
+  font-size: 5vh;
+  text-shadow: -1px -1px rgba(0,0,0,0.5), 1px 1px rgba(255,255,255,0.5);
+  color: rgba(139,69,19,0.4);
+  padding-top: 4vh;
+  padding-bottom: 1.5vh;
+  font-weight: bold;
+  background-image: url("https://image.freepik.com/free-photo/light-brown-wooden-textured-background_53876-75016.jpg");
+  height: 10vh;
+  vertical-align: middle;
+}
+
+#card-img{
+  object-fit: cover;
 }
