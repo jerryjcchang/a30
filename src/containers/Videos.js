@@ -31,7 +31,7 @@ class Videos extends React.Component{
   render(){
     return(
       <div>
-      <h1 class="page-header">To our Athena... </h1>
+      <h1 class="page-header">You win... the love of your friends</h1>
       <Modal open={this.state.open}
              closeIcon
              closeOnDimmerClick
@@ -41,7 +41,10 @@ class Videos extends React.Component{
         <Modal.Content
           id="vid-modal-content">
         <YouTube
-          videoId={this.state.vidId}/>
+          videoId={this.state.vidId}
+          opts={{playerVars:{autoplay:1}}}
+          
+          />
         </Modal.Content>
       </Modal>
       <Card.Group id="card-container" itemsPerRow="3">
