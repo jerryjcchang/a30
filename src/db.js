@@ -1,6 +1,7 @@
 const info =
 [
   {name: "Mandy", vid_id: "Ck8PkCNSkfk"},
+  {name: "Shuoyu", vid_id: "aeoEHYqkmyg"},
   {name: "Daphne and Chao", vid_id:"QkVHJpkiwDw"},
   {name: "Phylicia", vid_id:"b8KCfgDK294"},
   {name: "David Yi", vid_id: "SqVQDigei_U"},
@@ -16,15 +17,18 @@ const info =
   {name: "Nicole", vid_id:"xwf1Xvg-O64"},
   {name: "Lyle", vid_id:"1OZQzn1ADg8"},
   {name: "Bill", vid_id:"e-XasEKX9LA"},
+  {name: "Zeitsman", vid_id:"75QBV4TSPtY"},
 
   {name: "Lena", vid_id:"bCG_ZzJm1Is"},
+  {name: "Fiona and Hou Yi", vid_id:"IYnSD8D_Dvk"},
 
   {name: "Vivian", vid_id:"k6gqLQW2Z0U"},
   {name: "Leo and Mcqueen", vid_id: "NrEdI9kJChc"},
-  
+
+  {name: "Ellen", vid_id: "k3pHSJYJm7I"},
   {name: "Fiona", vid_id:"zPLN7NA0vrY"},
   {name: "Elaine", vid_id:"E-7Gz460l3M"},
-  
+
   {name: "Ben", vid_id:"-Me3F4Fgcj0"},
   {name: "Roy", vid_id:"BB03bLnFoGo"},
   {name: "Cathy", vid_id:"plSDj2ZVE1I"},

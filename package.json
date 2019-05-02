@@ -10,9 +10,11 @@
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
+    "react-transition-group": "^4.0.0",
     "react-youtube": "^7.9.0",
     "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^0.86.0",
+    "styled-components": "^4.2.0",
     "sweetalert-react": "^0.4.11"
   },
   "scripts": {
