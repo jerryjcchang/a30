@@ -46,7 +46,7 @@ class Videos extends React.Component{
           />
         </Modal.Content>
       </Modal>
-      <Card.Group id="card-container" itemsPerRow="8">
+      <Card.Group id="card-container" itemsPerRow="8" stackable={true}>
         {info.map(info => <VideoCard info={info} openModal={this.openModal}/>)}
       </Card.Group>
       {/* <h1 class="page-header" id="footer">Happy Birthday!</h1> */}
