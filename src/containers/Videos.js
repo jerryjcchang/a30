@@ -31,7 +31,7 @@ class Videos extends React.Component{
   render(){
     return(
       <div>
-      <h1 class="page-header">You win... the love of your friends</h1>
+      <h1 class="page-header">Happy Birthday!</h1>
       <Modal open={this.state.open}
              closeIcon
              closeOnDimmerClick
@@ -46,10 +46,10 @@ class Videos extends React.Component{
           />
         </Modal.Content>
       </Modal>
-      <Card.Group id="card-container" itemsPerRow="3">
+      <Card.Group id="card-container" itemsPerRow="8">
         {info.map(info => <VideoCard info={info} openModal={this.openModal}/>)}
       </Card.Group>
-      <h1 class="page-header" id="footer">Happy Birthday!</h1>
+      {/* <h1 class="page-header" id="footer">Happy Birthday!</h1> */}
 
       </div>
     )
