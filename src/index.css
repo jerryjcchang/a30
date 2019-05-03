@@ -30,8 +30,8 @@ code {
 
 #card-container{
   padding-top: 5vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-bottom: 5vh;
 }
 
@@ -50,14 +50,14 @@ code {
 }
 
 .page-header{
-  background-image: url("https://image.shutterstock.com/image-photo/wood-texture-background-planks-grunge-260nw-783084157.jpg");
+  background-image: url("https://i.imgur.com/OzkU4rX.png");
   font-family: 'Indie Flower', cursive;
   padding-top: 2vh;
   /* padding-bottom: 1vh; */
-  font-size: 10vh;
+  font-size: 5vw;
   text-shadow: -1px -1px rgba(0,0,0,0.5), 1px 1px rgba(255,255,255,0.5);
   color: rgba(139,69,19,0.4);
-  height: 17vh;
+  height: 10vw;
   /* text-shadow: -1px 0 lightblue, 0 1px lightblue, 1px 0 lightblue, 0 -1px lightblue; */
 }
 
